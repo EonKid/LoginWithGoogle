@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01AFE148722AA6A529C13C9D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5DE04CC76A09F64F2D8232 /* libPods.a */; };
 		A6E5D13E1C202BC5009806E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5D13D1C202BC5009806E0 /* main.m */; };
 		A6E5D1411C202BC5009806E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5D1401C202BC5009806E0 /* AppDelegate.m */; };
 		A6E5D1441C202BC5009806E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5D1431C202BC5009806E0 /* ViewController.m */; };
 		A6E5D1471C202BC5009806E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E5D1451C202BC5009806E0 /* Main.storyboard */; };
-		A6E5D1491C202BC5009806E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E5D1481C202BC5009806E0 /* Images.xcassets */; };
 		A6E5D14C1C202BC5009806E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E5D14A1C202BC5009806E0 /* LaunchScreen.xib */; };
 		A6E5D1581C202BC5009806E0 /* MyLogG2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5D1571C202BC5009806E0 /* MyLogG2Tests.m */; };
+		A6E5D1651C203861009806E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6E5D1641C203861009806E0 /* GoogleService-Info.plist */; };
+		A6E5D1671C2038BD009806E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E5D1661C2038BD009806E0 /* Images.xcassets */; };
+		A6E5D1691C203926009806E0 /* appbg.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E5D1681C203926009806E0 /* appbg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2138041DF65171B0BCA348EC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6D5DE04CC76A09F64F2D8232 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E5D1381C202BC5009806E0 /* MyLogG2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLogG2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E5D13C1C202BC5009806E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6E5D13D1C202BC5009806E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,11 +40,15 @@
 		A6E5D1421C202BC5009806E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A6E5D1431C202BC5009806E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A6E5D1461C202BC5009806E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6E5D1481C202BC5009806E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A6E5D14B1C202BC5009806E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A6E5D1511C202BC5009806E0 /* MyLogG2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLogG2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E5D1561C202BC5009806E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6E5D1571C202BC5009806E0 /* MyLogG2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLogG2Tests.m; sourceTree = "<group>"; };
+		A6E5D1611C202BD7009806E0 /* PodFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		A6E5D1641C203861009806E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6E5D1661C2038BD009806E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6E5D1681C203926009806E0 /* appbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbg.png; sourceTree = "<group>"; };
+		B3491F0CC44DE288087A4DF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AFE148722AA6A529C13C9D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +70,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C5942D689C7825EE71AE29C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DE04CC76A09F64F2D8232 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A6E5D12F1C202BC5009806E0 = {
 			isa = PBXGroup;
 			children = (
+				A6E5D1611C202BD7009806E0 /* PodFile */,
 				A6E5D13A1C202BC5009806E0 /* MyLogG2 */,
 				A6E5D1541C202BC5009806E0 /* MyLogG2Tests */,
 				A6E5D1391C202BC5009806E0 /* Products */,
+				F047DC8D7EC1A4B4D0967DD1 /* Pods */,
+				5C5942D689C7825EE71AE29C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,12 +102,14 @@
 		A6E5D13A1C202BC5009806E0 /* MyLogG2 */ = {
 			isa = PBXGroup;
 			children = (
+				A6E5D1681C203926009806E0 /* appbg.png */,
+				A6E5D1661C2038BD009806E0 /* Images.xcassets */,
+				A6E5D1641C203861009806E0 /* GoogleService-Info.plist */,
 				A6E5D13F1C202BC5009806E0 /* AppDelegate.h */,
 				A6E5D1401C202BC5009806E0 /* AppDelegate.m */,
 				A6E5D1421C202BC5009806E0 /* ViewController.h */,
 				A6E5D1431C202BC5009806E0 /* ViewController.m */,
 				A6E5D1451C202BC5009806E0 /* Main.storyboard */,
-				A6E5D1481C202BC5009806E0 /* Images.xcassets */,
 				A6E5D14A1C202BC5009806E0 /* LaunchScreen.xib */,
 				A6E5D13B1C202BC5009806E0 /* Supporting Files */,
 			);
@@ -119,6 +142,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F047DC8D7EC1A4B4D0967DD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3491F0CC44DE288087A4DF1 /* Pods.debug.xcconfig */,
+				2138041DF65171B0BCA348EC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6E5D15B1C202BC5009806E0 /* Build configuration list for PBXNativeTarget "MyLogG2" */;
 			buildPhases = (
+				B287EA8E8A5C73E1222D3140 /* Check Pods Manifest.lock */,
 				A6E5D1341C202BC5009806E0 /* Sources */,
 				A6E5D1351C202BC5009806E0 /* Frameworks */,
 				A6E5D1361C202BC5009806E0 /* Resources */,
+				DDE7CC3F70E1A03CC5ECB959 /* Embed Pods Frameworks */,
+				E0C8D93A0C52FD5183607682 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +234,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E5D1691C203926009806E0 /* appbg.png in Resources */,
 				A6E5D1471C202BC5009806E0 /* Main.storyboard in Resources */,
+				A6E5D1671C2038BD009806E0 /* Images.xcassets in Resources */,
+				A6E5D1651C203861009806E0 /* GoogleService-Info.plist in Resources */,
 				A6E5D14C1C202BC5009806E0 /* LaunchScreen.xib in Resources */,
-				A6E5D1491C202BC5009806E0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +250,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B287EA8E8A5C73E1222D3140 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE7CC3F70E1A03CC5ECB959 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C8D93A0C52FD5183607682 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6E5D1341C202BC5009806E0 /* Sources */ = {
@@ -345,6 +430,7 @@
 		};
 		A6E5D15C1C202BC5009806E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3491F0CC44DE288087A4DF1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyLogG2/Info.plist;
@@ -355,6 +441,7 @@
 		};
 		A6E5D15D1C202BC5009806E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2138041DF65171B0BCA348EC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyLogG2/Info.plist;
@@ -416,6 +503,7 @@
 				A6E5D15D1C202BC5009806E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6E5D15E1C202BC5009806E0 /* Build configuration list for PBXNativeTarget "MyLogG2Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +512,7 @@
 				A6E5D1601C202BC5009806E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
