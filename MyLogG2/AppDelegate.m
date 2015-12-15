@@ -55,8 +55,8 @@ didSignInForUser:(GIDGoogleUser *)user
     NSString *email = user.profile.email;
     NSLog(@"%@",email);
        // [START_EXCLUDE]
-    
-    if ([GIDSignIn sharedInstance].currentUser.profile.hasImage == TRUE)
+    [GIDSignIn sharedInstance].shouldFetchBasicProfile = YES;
+    if ([GIDSignIn sharedInstance].currentUser.profile.hasImage)
     {
         NSUInteger dimension = 30;
         NSURL *imageURL = [user.profile imageURLWithDimension:dimension];
