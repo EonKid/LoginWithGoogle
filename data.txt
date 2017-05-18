@@ -1,1 +1,1 @@
-https://register.dpma.de/DPMAregister/pat/register?AKZ=1020151192799&CURSOR=1
+https://patentscope.wipo.int/search/de/detail.jsf?docId=WO2017080888&recNum=1&office=&queryString=FP%3A%28pfoertzsch%29&prevFilter=&sortOption=Veröffentlichungsdatum+ab&maxRec=2
