@@ -1,1 +1,5 @@
 https://patentscope.wipo.int/search/de/detail.jsf?docId=WO2017080888&recNum=1&office=&queryString=FP%3A%28pfoertzsch%29&prevFilter=&sortOption=Veröffentlichungsdatum+ab&maxRec=2
+
+
+
+● Display the nearest 50  restaurants  to  IVP’s  office  using  the  Foursquare  API. ● Ability to read/write reviews  (reviews  should  be  stored  locally)  for  a  visited  restaurant. Upon adding a review, the  review  should  always  appear  if  the  same  restaurant  is  selected for dining in future. ● Ability to thumbs-down  a  restaurant  such  that  it  is  never  considered  as  an  option  for dining
